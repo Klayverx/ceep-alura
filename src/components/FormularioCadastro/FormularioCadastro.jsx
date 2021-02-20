@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import './FormularioCadastro.css'
 
 class FormularioCadastro extends Component {
-    constructor(props){
+    constructor(props) {
         super(props)
-        this.titulo=""
-        this.texto=""
+        this.titulo = ""
+        this.texto = ""
     }
 
     _handleMudancaTitulo(e) {
